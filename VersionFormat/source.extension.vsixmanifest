@@ -12,8 +12,8 @@ Add this to your .csproj:
 
 Anything you put between {brackets} will be formatted with the DateTime.ToString(string format) method. More about that here: https://learn.microsoft.com/en-us/dotnet/api/system.datetime.tostring?view=net-7.0#system-datetime-tostring(system-string)
 
-
-https://learn.microsoft.com/en-us/dotnet/api/system.datetime.tostring?view=net-7.0#system-datetime-tostring(system-string)</Description>
+Code is open source: https://github.com/mmartijnNL/VersionFormat</Description>
+        <MoreInfo>https://github.com/mmartijnNL/VersionFormat</MoreInfo>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Tags>version</Tags>
