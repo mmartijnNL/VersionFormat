@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="VersionFormat.322533f3-dec8-48c8-bf5a-51611bfa34d1" Version="1.0" Language="en-US" Publisher="M. Kalteren" />
         <DisplayName>VersionFormat</DisplayName>
-        <Description xml:space="preserve">If you set &lt;&gt;Updates the version in the csproj every build. 
+        <Description xml:space="preserve">Updates the version in the csproj every build according to specified template. 
 
 Add this to your .csproj:
 &lt;VersionFormat&gt;{yyyyMMdd}-{HHmmss}&lt;/VersionFormat&gt;
@@ -16,7 +16,7 @@ Code is open source: https://github.com/mmartijnNL/VersionFormat</Description>
         <MoreInfo>https://github.com/mmartijnNL/VersionFormat</MoreInfo>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
-        <Tags>version</Tags>
+        <Tags>version;format;formatting;template;templating;datetime;date;time</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
