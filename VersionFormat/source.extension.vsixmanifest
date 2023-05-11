@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="VersionFormat.322533f3-dec8-48c8-bf5a-51611bfa34d1" Version="1.0" Language="en-US" Publisher="CIMSOLUTIONS B.V." />
+        <Identity Id="VersionFormat.322533f3-dec8-48c8-bf5a-51611bfa34d1" Version="1.0" Language="en-US" Publisher="M. Kalteren" />
         <DisplayName>VersionFormat</DisplayName>
         <Description xml:space="preserve">If you set &lt;&gt;Updates the version in the csproj every build. 
 
