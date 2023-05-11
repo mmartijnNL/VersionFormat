@@ -3,7 +3,17 @@
     <Metadata>
         <Identity Id="VersionFormat.322533f3-dec8-48c8-bf5a-51611bfa34d1" Version="1.0" Language="en-US" Publisher="CIMSOLUTIONS B.V." />
         <DisplayName>VersionFormat</DisplayName>
-        <Description xml:space="preserve">If you set &lt;&gt;Updates the version in the csproj every build. </Description>
+        <Description xml:space="preserve">If you set &lt;&gt;Updates the version in the csproj every build. 
+
+Add this to your .csproj:
+&lt;VersionFormat&gt;{yyyyMMdd}-{HHmmss}&lt;/VersionFormat&gt;
+(Re)build and your version should look like this:
+&lt;Version&gt;20230511-093256&lt;/Version&gt; 
+
+Anything you put between {brackets} will be formatted with the DateTime.ToString(string format) method. More about that here: https://learn.microsoft.com/en-us/dotnet/api/system.datetime.tostring?view=net-7.0#system-datetime-tostring(system-string)
+
+
+https://learn.microsoft.com/en-us/dotnet/api/system.datetime.tostring?view=net-7.0#system-datetime-tostring(system-string)</Description>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Tags>version</Tags>
